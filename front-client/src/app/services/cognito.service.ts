@@ -26,6 +26,7 @@ export class CognitoService {
             ClientId: "6sq8a1ud4o8i29caek0vika7bd",
           };
         this.userPool = new CognitoUserPool(poolData);
+
     }
 
     signUp = (email: string, password: string) => {
